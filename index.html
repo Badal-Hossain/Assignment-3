@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst</title>
+    <!-- tailwind css -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'bg-base': '#F85559'
+              }
+            }
+          }
+        }
+      </script>
+
+    <style>
+        .font-poppins {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+</head>
+<body class="font-poppins">
+    <header class="container md:mx-auto">
+        <nav class="py-4">
+                <div class="navbar bg-base-100 h-20 bg-bg-base rounded-full">
+                    <div class="navbar-start text-white">
+                        <ul class="menu menu-horizontal px-1 text-base">
+                            <li><a>Home</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>News</a></li>
+                            <li><a>Contact</a></li>
+                          </ul>
+                    </div>
+                    <div class="navbar-center">
+                        <img src="./images/logo.png" alt="">
+                      <a class="btn btn-ghost normal-case text-xl text-white">Fruit Burst</a>
+                    </div>
+                    <div class="navbar-end flex">
+                        <div class="relative flex w-2/3 flex-wrap items-center">
+                            <input
+                              type="search"
+                              class="relative bg-white block w-[1px] min-w-0 flex-auto rounded-l-full px-6 py-3 text-sm font-normal text-neutral-700 focus:outline-none focus:border-none focus:text-neutral-700"
+                              placeholder="Search"
+                              aria-label="Search"
+                              aria-describedby="button-addon1" />
+                        
+                            <!--Search button-->
+                            <button
+                                class="relative bg-white border-none z-[2] rounded-r-full border-2 border-primary px-6 py-3 text-sm font-medium uppercase text-neutral-700 focus:outline-none focus:ring-0"
+                                type="button"
+                                id="button-addon3"
+                                data-te-ripple-init>
+                                Search
+                            </button>
+                          </div>
+                    </div>
+                  </div>
+        </nav>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
